@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='adspy',
     version="0.0.1",
+    packages=find_packages(),
     description='engine for parsing ADwords in ADsPy django',
     author='Gabriele Santucci',
     maintainer='Gabriele Santucci',
