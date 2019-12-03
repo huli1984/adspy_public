@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-from setuptools import setup, find_packages
+#from setuptools import setup, find_packages
+from distutils.core import setup
 
 setup(
     name='adspy',
@@ -16,7 +17,6 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     install_requires=['requests', 'numpy', 'bs4', 'selenium', 'pandas'],
-    tests_require=['requests', 'numpy', 'bs4', 'selenium', 'pandas'],
+    python_requires=">=3.5",
 )
 
-setup()
