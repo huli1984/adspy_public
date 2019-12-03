@@ -18,3 +18,5 @@ setup(
     install_requires=['requests', 'numpy', 'bs4', 'selenium', 'pandas'],
     tests_require=['requests', 'numpy', 'bs4', 'selenium', 'pandas'],
 )
+
+setup()
